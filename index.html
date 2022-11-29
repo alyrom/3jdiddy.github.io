@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="default.jpg" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>HIST 190</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Overview</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Archeological Sites</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Primary Sources</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">So What?</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title" id="page-top">
+        <h1>
+          HIST 190<br/>
+          <span class="highlight">Counterpoint Project</span>
+        </h1>
+        <br/>
+        <h4>By Ethan A. W. Jones</h4>
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Overview</h2>
+        <h3 class="section__header">
+          Kofun Period ~300-550 AD
+        </h3>
+        <p>The Kofun period of Japan is characterized by, and obtains its namesake from, the megalithic keyhole-shaped tombs known as Kofun that were constructed in the Japanese archipelago from the middle of the 3rd century to the early 7th century AD.</p> <br/>
+        <p>Within these tombs, ancient figures crafted for ritual use called Haniwa could be found. These terracotta clay figures displayed clothing, hairstyles, tools, and architecture used at the time. Therefore, they serve as historical archives of the Kofun period. </p><br/>
+        <p>The Kofun period also recorded Japan's earliest political centralization, when the Yamato clan rose to power in southwestern Japan and established the Imperial House, facilitating trade routes across the region.</p>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Archeological Sites</h2>
+        <h3 class="section__header">
+          Kofun Period Archeological Sites
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Mozu Tombs
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Hashihaka Kofun
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Goshikizuka Kofun
+          </button>
+        </div>
+
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Mozu Tombs
+          </h5>
+          <img src="img/mozu.jpg" class="tombPic"/>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Hashihaka Kofun
+          </h5>
+          <img src="img/Hashihaka.jpg" class="tombPic"/>
+        </div>
+
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Goshikizuka Kofun
+          </h5>
+          <img src="img/Goshikizuka.jpg" class="tombPic"/>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Primary Sources</h2>
+        <h3 class="section__header">
+          Hinawa Artifacts
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <img src="img/haniwa1.png"/>
+        </div>
+
+        <div class="slide">
+          <img src="img/haniwa2.png"/>
+        </div>
+
+        <div class="slide">
+          <img src="img/haniwa3.png"/>
+        </div>
+
+        <div class="slide">
+          <img src="img/haniwa4.png"/>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section id="section--4">
+      <div class="section__title2">
+        <h2 class="section__description">So What?</h2>
+        <h3 class="section__header">
+          Historical Importance
+        </h3> <br/>
+        <div class= "grid-container">
+          <div class="item1">
+            <p>Aside from the Hinawa serving as important primary sources-- granting insight into the culture of the Japanese people of the time-- the Kofun period, and the changes in art culture in the centuries that followed, are unique and potent examples of the power of cultural influence.</p> </br> <p> Specifically, I believe examining the cultural influence China had on Japan in the centuries begining in the Kofun period-- with the Kofun period acting as a starting point of the encroachment of culture's from China and the southern Korean Peninsula-- grants immense insight into how the identity of cultures can shift due to cultural influence. The understanding of this phenomina is relevant to all areas of historical studies-- regardless of the region in question. </p>
+          </div>
+          <div class="item2">
+            <img src="img/Kanagawa-Wave-woodblock-colour-print-series-part.webp" class="section-img"/>
+            <p class="img-header">Katsushika Hokusai’s Under the Wave off Kanagawa (ca. 1830-31), perhaps the most iconic image </br> in Japanese art.</p>
+          </div>
+          <div class="item3">
+            <img src="img/Chinese-Art-848x530.jpg" class="section-img"/>
+            <p class="img-header"> Appreciating Potted Chrysanthemum in Tranquility (Ming Dynasty) by Shen Zhou; Public Domain </br> An example of Chinese art, from which Japanese culture drew immense influence starting in the </br>Kofun period.</p>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="section--top-bar">
+      <button class="btn btn--to-top" href="#page-top">Back To Top</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
