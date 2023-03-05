@@ -1,17 +1,17 @@
 /* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
 
 :root {
-  --color-primary: #ffaf03;
-  --color-secondary: #ff7d03;
-  --color-tertiary: #ffd903;
-  --color-primary-darker: #e29b00;
-  --color-secondary-darker: #e46f01;
-  --color-tertiary-darker: #dfbd00;
-  --color-primary-opacity: #ffaf037c;
-  --color-secondary-opacity: #ff7d0379;
-  --color-tertiary-opacity: #ffd9037a;
-  --gradient-primary: linear-gradient(to top left, #ff7d03, #ffbc03);
-  --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
+  --color-primary: #47cffc;
+  --color-secondary: #555dff;
+  --color-tertiary: #b1d3f2;
+  --color-primary-darker: #267088;
+  --color-secondary-darker: #2c3082;
+  --color-tertiary-darker: #617384;
+  --color-primary-opacity: #47cffc75;
+  --color-secondary-opacity: #555dff5a;
+  --color-tertiary-opacity: #b1d3f257;
+  --gradient-primary: linear-gradient(to bottom right, #00c3ff, #262ebb);
+  --gradient-secondary: linear-gradient(to top left, #4951e2, #2d33b0);
 }
 
 * {
@@ -76,7 +76,7 @@ p{
 }
 
 .tombPic{
-    padding-left: 200px;
+    padding-left: 150px;
     width: 600px;
 }
 
@@ -227,9 +227,9 @@ img {
 }
 
 .header__title {
-  flex: 1;
+  flex: .9;
 
-  max-width: 115rem;
+  max-width: 150rem;
   display: grid;
   grid-template-columns: 3fr 2fr;
   row-gap: 3rem;
@@ -440,7 +440,7 @@ h4 {
 }
 
 .slide > img {
-  width: 25%;
+  width: 60%;
   object-fit: cover;
 }
 
